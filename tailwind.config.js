@@ -7,11 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        "secondary": "rgb(74,85,140)",
+        "box-background": "rgb(38,42,61)"
       },
+      fontFamily: {
+        "header": ["Alfa Slab One"]
+      }
     },
   },
   plugins: [],
